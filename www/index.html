@@ -43,13 +43,19 @@
      .author img {
        width: 120px;
      }
+     .col {
+       padding-left: 8px;
+       padding-right: 8px;
+     }
+     footer {
+       text-align: center;
+       font-size: 0.8rem;
+     }
     </style>
   </head>
 
   <body>
     <main role="main" class="container">
-
-      <!-- About the project -->
       <div class="about">
         <h1>PUMPKIN PATCH</h1>
         <p class="lead">A tool for proof repair</p>
@@ -77,53 +83,50 @@
         <h2>Contact</h2>
         <p>Talia Ringer is the point of contact: <a href="mailto:tringer@cs.washington.edu">tringer@cs.washington.edu</a>.</p>
 
-      </div>
+        <h2>People</h2>
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <a href="https://tlringer.github.io" class="author text-center">
+                <div class="photo"><img src="img/talia.jpeg" /></div>
+                <p>Talia Ringer</p>
+              </a>
+            </div>
 
-      <!-- Who the team members are -->
-      <div class="container">
-        <div class="row">
+            <div class="col">
+              <a href="https://www.linkedin.com/in/randair-porter-3a6268161/" class="author text-center">
+                <div class="photo"><img src="img/randair.jpeg" /></div>
+                <p>RanDair Porter</p>
+              </a>
+            </div>
 
-          <div class="col">
-            <a href="https://tlringer.github.io" class="author text-center">
-              <div class="photo"><img src="img/talia.jpeg" /></div>
-              <p>Talia Ringer</p>
-            </a>
-          </div>
+            <div class="col">
+              <a href="http://nyazdani.com" class="author text-center">
+                <div class="photo"><img src="img/nate.jpeg" /></div>
+                <p>Nate Yazdani</p>
+              </a>
+            </div>
 
-          <div class="col">
-            <a href="https://www.linkedin.com/in/randair-porter-3a6268161/" class="author text-center">
-              <div class="photo"><img src="img/randair.jpeg" /></div>
-              <p>RanDair Porter</p>
-            </a>
-          </div>
+            <div class="col">
+              <a href="http://halfaya.org/leo/" class="author text-center">
+                <div class="photo"><img src="img/john.jpeg" /></div>
+                <p>John Leo</p>
+              </a>
+            </div>
 
-          <div class="col">
-            <a href="http://nyazdani.com" class="author text-center">
-              <div class="photo"><img src="img/nate.jpeg" /></div>
-              <p>Nate Yazdani</p>
-            </a>
-          </div>
+            <div class="col">
+              <a href="https://homes.cs.washington.edu/~djg/" class="author text-center">
+                <div class="photo"><img src="img/dan.jpeg" /></div>
+                <p>Dan Grossman</p>
+              </a>
+            </div>
+          </div> <!-- /.row -->
+        </div> <!-- /.container -->
 
-          <div class="col">
-             <a href="http://halfaya.org/leo/" class="author text-center">
-               <div class="photo"><img src="img/john.jpeg" /></div>
-               <p>John Leo</p>
-             </a>
-          </div>
-
-          <div class="col">
-            <a href="https://homes.cs.washington.edu/~djg/" class="author text-center">
-              <div class="photo"><img src="img/dan.jpeg" /></div>
-              <p>Dan Grossman</p>
-            </a>
-          </div>
-        </div>
-
-        <hr>
-
-      </div> <!-- /container -->
-
+      </div> <!-- /.about -->
     </main><!-- /.container -->
+
+    <hr>
 
     <footer class="page-footer">
       <p>&copy; UW CSE 2018, 2019.</p>
