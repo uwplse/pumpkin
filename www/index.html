@@ -15,16 +15,12 @@
 
     <!-- Custom styles for this page -->
     <style type="text/css">
-     img {
-       display: block;
-       margin: auto;
-     }
      body {
        width: 586pt;
        margin: auto;
      }
      .about {
-       padding: 3rem 1.5rem;
+       padding: 3rem 1.5rem 0 1.5rem;
        text-align: left;
      }
      .logo {
@@ -34,11 +30,9 @@
        width: 200pt;
      }
      .author {
-       color: black;
-     }
-     .author .photo {
-       height: 120px;
-       overflow: hidden;
+       padding: 0;
+       margin: auto;
+       text-align: center;
      }
      .author img {
        width: 120px;
@@ -46,10 +40,10 @@
        border-radius: 50%;
        object-fit: cover;
        object-position: left top;
+       padding: 2px;
      }
-     .col {
-       padding-left: 8px;
-       padding-right: 8px;
+     .author span {
+       color: black;
      }
      footer {
        text-align: center;
@@ -63,7 +57,9 @@
       <div class="about">
         <h1>PUMPKIN PATCH</h1>
         <p class="lead">A tool for proof repair</p>
-        <div class="logo"><img src="img/logo.svg" title="Project logo, derived from an image created by Twitter (CC BY 4.0)" /></div>
+        <div class="logo">
+          <img src="img/logo.svg" title="Project logo, derived from an image created by Twitter (CC BY 4.0)" alt="Pumpkin with lambda superimposed" />
+        </div>
 
         <p>PUMPKIN PATCH (<em>Proof Updater Mechanically Passing Knowledge Into New Proofs, Assisting The Coq Hacker</em>) is a suite of <a href="http://coq.inria.fr">Coq</a> plugins for proof repair, reuse, and evolution. These plugins are the focus of a research project in the <a href="http://uwplse.org">PLSE group</a> of <a href="http://cs.washington.edu">UW CSE</a>. This project is associated with a broader effort on research in <a href="http://proofengineering.org">proof engineering</a>.</p>
 
@@ -90,38 +86,38 @@
         <h2>People</h2>
         <div class="container">
           <div class="row">
-            <div class="col">
-              <a href="https://tlringer.github.io" class="author text-center">
-                <div class="photo"><img src="img/talia.jpeg" /></div>
-                <p>Talia Ringer</p>
+            <div class="col author">
+              <a href="https://tlringer.github.io" >
+                <img src="img/talia.jpeg" />
+                <span>Talia Ringer</span>
               </a>
             </div>
 
-            <div class="col">
-              <a href="https://www.linkedin.com/in/randair-porter-3a6268161/" class="author text-center">
-                <div class="photo"><img src="img/randair.jpeg" /></div>
-                <p>RanDair Porter</p>
+            <div class="col author">
+              <a href="https://www.linkedin.com/in/randair-porter-3a6268161/" >
+                <img src="img/randair.jpeg" />
+                <span>RanDair Porter</span>
               </a>
             </div>
 
-            <div class="col">
-              <a href="http://nyazdani.com" class="author text-center">
-                <div class="photo"><img src="img/nate.jpeg" /></div>
-                <p>Nate Yazdani</p>
+            <div class="col author">
+              <a href="http://nyazdani.com" >
+                <img src="img/nate.jpeg" />
+                <span>Nate Yazdani</span>
               </a>
             </div>
 
-            <div class="col">
-              <a href="http://halfaya.org/leo/" class="author text-center">
-                <div class="photo"><img src="img/john.jpeg" /></div>
-                <p>John Leo</p>
+            <div class="col author">
+              <a href="http://halfaya.org/leo/" >
+                <img src="img/john.jpeg" />
+                <span>John Leo</span>
               </a>
             </div>
 
-            <div class="col">
-              <a href="https://homes.cs.washington.edu/~djg/" class="author text-center">
-                <div class="photo"><img src="img/dan.jpeg" /></div>
-                <p>Dan Grossman</p>
+            <div class="col author">
+              <a href="https://homes.cs.washington.edu/~djg/" >
+                <img src="img/dan.jpeg" />
+                <span>Dan Grossman</span>
               </a>
             </div>
           </div> <!-- /.row -->
